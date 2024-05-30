@@ -1,5 +1,6 @@
 import type { Config } from "tailwindcss";
 
+<<<<<<< HEAD
 const svgToDataUri = require("mini-svg-data-uri");
 
 const colors = require("tailwindcss/colors");
@@ -9,6 +10,10 @@ const {
 
 const config = {
   darkMode: ["class"],
+=======
+
+const config: Config = {
+>>>>>>> 8ec720f6afb7fcd1946924ba8845d5d43f77a7f6
   content: [
     "./pages/**/*.{ts,tsx}",
     "./components/**/*.{ts,tsx}",
@@ -26,6 +31,7 @@ const config = {
       },
     },
     extend: {
+<<<<<<< HEAD
       colors: {
         black: {
           DEFAULT: "#000",
@@ -160,6 +166,15 @@ const config = {
         scroll:
           "scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite",
       },
+=======
+        colors:{
+          black:{
+            DEFAULT: '#000',
+            100: "#000319",
+            
+          }
+        }
+>>>>>>> 8ec720f6afb7fcd1946924ba8845d5d43f77a7f6
     },
   },
   plugins: [
